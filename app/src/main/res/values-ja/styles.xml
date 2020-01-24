@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorDefaultText</item>
+    </style>
+
+    <style name="RegularTextStyle" parent="TextStyle">
+        <item name="android:fontFamily">@font/noto_sans_cjk_jp_regular</item>
+    </style>
+
+    <style name="MediumTextStyle" parent="TextStyle">
+        <item name="android:fontFamily">@font/noto_sans_cjk_jp_medium</item>
+    </style>
+
+    <style name="BoldTextStyle" parent="TextStyle">
+        <item name="android:fontFamily">@font/noto_sans_cjk_jp_bold</item>
+    </style>
+
+</resources>
